@@ -1,11 +1,17 @@
-![run-tests](../../workflows/run-tests/badge.svg)
-
 Lamprou Konstantinos-Georgios
 
-- ...
-- ...
 
 ### Documentation
 
-In the worst case, the complexity of both insert and search is O(n), while in the average case, it is O(1) for both operations. Regarding real-time performance, the complexity of insert and search is 𝑂(1)O(1), and the same applies to amortized time, which is also O(1). Compared to the classic implementation, the hybrid approach has the same average case and amortized time complexity but demonstrates better worst-case complexity due to the use of separate chaining.
+This project implements a hybrid hashing technique combining open addressing with linear probing and separate chaining. The approach optimizes the use of neighboring slots in open addressing while managing collisions effectively through separate chaining.
+
+Complexity
+Worst-Case: Both insert and search operations have a complexity of O(n)O(n)O(n).
+Average-Case: For both insert and search, the complexity is O(1)O(1)O(1) on average.
+Real-Time and Amortized Complexity: Both operations maintain O(1)O(1)O(1) complexity in real-time and amortized scenarios.
+
+Comparison to Classic Open Addressing
+While the hybrid method shares the same average and amortized complexity with classic open addressing, it improves worst-case performance by using separate chaining, reducing the impact of clustering.
+
+
 
