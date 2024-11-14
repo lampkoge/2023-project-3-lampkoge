@@ -1,31 +1,71 @@
 {
-	"c_project": {
-		// Όνομα του εκτελέσιμου προγράμματος (μόνο για μεταγλώττιση πολλών αρχείων & make)
-		"program": "UsingHybridHash_ADTMap_test",
-
-		// Directory στο οποίο βρίσκεται το πρόγραμμα (μόνο για μεταγλώτισση με make)
-		"dir": "tests",
-
-		// Οι τιμές που δηλώνονται στα arg1 - arg8 παρακάτω δίνονται αυτόματα σαν ορίσματα
-		// σε οποιοδήποτε πρόγραμμα τρέχουμε (είτε με Ctrl-Shift-B είτε στον debugger).
-		//
-		// Ο ευκολότερος τρόπος να τις αλλάξουμε: Terminal / Run task / Set program arguments
-		//
-		// - Για ανακατεύθυνση εισόδου βάζουμε ορίσματα: "<", "input-file"
-		// - Για ανακατεύθυνση εξόδου  βάζουμε ορίσματα: ">", "output-file"
-		//
-		// Τερματίζουμε τη λίστα με "#", το όρισμα αυτό και τα επόμενά του αγνοούνται.
-		//
-		// ΠΡΟΣΟΧΗ: Ολα τα arg1 - arg8 πρέπει να δηλώνονται, αν τα βάλουμε σε σχόλια θα
-		//          πάρουμε μήνυμα λάθους. Αν θέλουμε λιγότερα απλά τερματίζουμε με "#".
-		//
-		"arg1": "#",
-		"arg2": "#",
-		"arg3": "#",
-		"arg4": "#",
-		"arg5": "#",
-		"arg6": "#",
-		"arg7": "#",
-		"arg8": "#",
-	},
+  "c_project": {
+    "program": "UsingHybridHash_ADTMap_test",
+    "dir": "tests",
+    "arg1": "#",
+    "arg2": "#",
+    "arg3": "#",
+    "arg4": "#",
+    "arg5": "#",
+    "arg6": "#",
+    "arg7": "#",
+    "arg8": "#"
+  },
+  "C_Cpp_Runner.cCompilerPath": "gcc",
+  "C_Cpp_Runner.cppCompilerPath": "g++",
+  "C_Cpp_Runner.debuggerPath": "gdb",
+  "C_Cpp_Runner.cStandard": "",
+  "C_Cpp_Runner.cppStandard": "",
+  "C_Cpp_Runner.msvcBatchPath": "",
+  "C_Cpp_Runner.useMsvc": false,
+  "C_Cpp_Runner.warnings": [
+    "-Wall",
+    "-Wextra",
+    "-Wpedantic",
+    "-Wshadow",
+    "-Wformat=2",
+    "-Wcast-align",
+    "-Wconversion",
+    "-Wsign-conversion",
+    "-Wnull-dereference"
+  ],
+  "C_Cpp_Runner.msvcWarnings": [
+    "/W4",
+    "/permissive-",
+    "/w14242",
+    "/w14287",
+    "/w14296",
+    "/w14311",
+    "/w14826",
+    "/w44062",
+    "/w44242",
+    "/w14905",
+    "/w14906",
+    "/w14263",
+    "/w44265",
+    "/w14928"
+  ],
+  "C_Cpp_Runner.enableWarnings": true,
+  "C_Cpp_Runner.warningsAsError": false,
+  "C_Cpp_Runner.compilerArgs": [],
+  "C_Cpp_Runner.linkerArgs": [],
+  "C_Cpp_Runner.includePaths": [],
+  "C_Cpp_Runner.includeSearch": [
+    "*",
+    "**/*"
+  ],
+  "C_Cpp_Runner.excludeSearch": [
+    "**/build",
+    "**/build/**",
+    "**/.*",
+    "**/.*/**",
+    "**/.vscode",
+    "**/.vscode/**"
+  ],
+  "C_Cpp_Runner.useAddressSanitizer": false,
+  "C_Cpp_Runner.useUndefinedSanitizer": false,
+  "C_Cpp_Runner.useLeakSanitizer": false,
+  "C_Cpp_Runner.showCompilationTime": false,
+  "C_Cpp_Runner.useLinkTimeOptimization": false,
+  "C_Cpp_Runner.msvcSecureNoWarnings": false
 }
